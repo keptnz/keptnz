@@ -108,7 +108,7 @@ JUNK     = ('gift card','giftcard','gift-card','e-gift','lookbook','sample','dep
             'gift voucher','voucher','shipping','donation','afterpay','gwp','goodie bag',
             'repair','alteration','swatch')
 
-UA = {'User-Agent': 'Mozilla/5.0 (compatible; KeptCatalogue/1.0; +https://kept.nz)'}
+UA = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', 'Accept': 'application/json,text/javascript,*/*;q=0.9', 'Accept-Language': 'en-NZ,en;q=0.9'}
 
 
 def categorise(ptype: str, title: str) -> str:
